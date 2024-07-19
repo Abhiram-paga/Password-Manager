@@ -1,0 +1,61 @@
+.password-list-item-container {
+  width: 100%;
+  border: 1px solid #c3caea;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+.profile-con {
+  width: 18%;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #10b981;
+}
+.stars-img {
+  width: 100%;
+}
+
+.profile-con-head {
+  font-family: Roboto;
+  color: #f8fafc;
+}
+
+.web-para {
+  color: #f8fafc;
+  font-family: Roboto;
+}
+
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+  width: 10%;
+}
+.web-user-pass-con {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+@media (min-width: 768px) or (min-width: 992px) or (min-width: 1200px) {
+  .password-list-item-container {
+    width: 30%;
+    margin-right: 20px;
+  }
+  .profile-con-head {
+    font-size: 20px;
+  }
+  .web-para {
+    font-size: 20px;
+  }
+}
